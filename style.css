@@ -1,0 +1,51 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #303030;
+  margin: 0;
+}
+
+section {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  height: 20rem;
+  width: 60rem;
+}
+
+#barchart {
+  display: flex;
+  height: 10rem;
+  direction: rtl;
+}
+
+#display {
+  font-family: "Kumbh Sans", sans-serif;
+  font-size: 5rem;
+  color: white;
+  height: 10rem;
+  text-align: center;
+}
+
+.bar {
+  display: inline-block;
+  background-color: white;
+  width: 1rem;
+  margin: 0.25rem;
+  animation-name: slide;
+  animation-duration: 1s;
+  align-self: flex-end;
+}
+
+@keyframes slide {
+  from {
+    max-width: 0px;
+  }
+
+  to {
+    max-width: 200px;
+  }
+}
