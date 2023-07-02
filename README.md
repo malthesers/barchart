@@ -1,4 +1,4 @@
-# Barchart
+# 📊 Barchart
 
 Made as part of KEA's multimedia design, during third semester front-end development course.
 
@@ -6,6 +6,6 @@ Made as part of KEA's multimedia design, during third semester front-end develop
 
 ~~Eye warning: you may or may not be hypnotised~~.
 
-## Instructions
+## 📋 Instructions
 
 Hover over one of the infinitely generated bars to check how big it be.
